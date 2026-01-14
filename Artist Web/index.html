@@ -1,0 +1,660 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monisha A — Portfolio | Pencil Sketches, Resin Art & Handmade Crafts</title>
+  <meta name="description"
+    content="Portfolio of Monisha Aroumougam — Professional artist specializing in pencil sketches, colour pencil art, resin art, and handmade crafts. Commission-based artwork available." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="DP2.jpg" />
+  <link rel="apple-touch-icon" href="DP2.jpg" />
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="Monisha A — Artist Portfolio" />
+  <meta property="og:description"
+    content="Professional artist specializing in pencil sketches, colour pencil, resin art, and handmade crafts. Available for commissions." />
+  <meta property="og:image" content="Featured-Image.webp" />
+  <meta property="og:url" content="https://moniverse-atelier.vercel.app" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Monisha A — Artist Portfolio" />
+  <meta name="twitter:description"
+    content="Professional artist specializing in pencil sketches, colour pencil, resin art, and handmade crafts." />
+  <meta name="twitter:image" content="Featured-Image.webp" />
+
+  <!-- Additional SEO -->
+  <meta name="keywords"
+    content="pencil sketch artist, colour pencil art, resin art, handmade crafts, portrait artist, commission art, Pondicherry artist" />
+  <meta name="author" content="Monisha Aroumougam" />
+  <meta name="theme-color" content="#b78bff" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Dark Mode Toggle -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+    <span class="sunflower">🌻</span>
+    <span class="owl">🦉</span>
+  </button>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg fill="currentColor" viewBox="0 0 24 24">
+      <path d="M7 14l5-5 5 5z" />
+    </svg>
+  </button>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/918903539297?text=Hi%20Monisha,%20I'm%20interested%20in%20commissioning%20artwork!"
+    class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+    </svg>
+  </a>
+
+  <header>
+    <div class="container navbar">
+      <div class="logo">
+        <div class="mark">
+          <img src="DP2.jpg" alt="Monisha Aroumougam"
+            style="width:48px;height:48px;border-radius:12px;object-fit:cover;" />
+        </div>
+        <div>
+          <div style="font-weight:700;color:var(--text)">Monisha Aroumougam</div>
+          <div style="font-size:12px;color:var(--muted)">Pencil Sketch · Resin Art · Handmade Crafts</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#payment-methods">Payment</a></li>
+          <li><a href="#gift-recommendations">Gifts</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact" class="cta">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="menu" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <!-- Parallax Background Shapes -->
+  <div class="parallax-bg" id="parallaxBg">
+    <div class="parallax-shape shape-1"></div>
+    <div class="parallax-shape shape-2"></div>
+  </div>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <h1>Monisha Aroumougam</h1>
+        <p class="lead">Handmade art — Pencil sketches, colour pencil, resin art, and gifts. Every piece is made with
+          care.</p>
+        <p>Available for commissions: <strong>Pencil sketch, Colour pencil, Resin art, Crafts</strong>.<br>
+          <em>Watercolour and Acrylic paintings are personal / not for commission.</em></p>
+        <div style="margin-top:16px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+          <a href="#gallery" class="cta"
+            style="padding:12px 24px;border-radius:12px;font-weight:600;text-decoration:none;position:relative;z-index:1;">View
+            Gallery</a>
+          <a href="#contact" class="neuro-btn"
+            style="padding:10px 20px;border-radius:10px;color:var(--text);text-decoration:none;position:relative;z-index:1;">Inquire</a>
+        </div>
+      </div>
+
+      <aside class="hero-card float-element">
+        <div style="font-size:13px;color:var(--muted);margin-bottom:10px">Featured</div>
+        <div class="featured sketch-effect" id="featured">
+          <!-- replace with a featured artwork -->
+          <img src="Featured-Image.webp" alt="Featured artwork" loading="lazy" />
+        </div>
+      </aside>
+    </section>
+
+    <!-- Floating Art Particles Background -->
+    <div class="particle-bg" id="particleBg"></div>
+
+    <!-- Stats Section -->
+    <div class="stats-section animated-gradient">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon">🎨</div>
+          <div class="stat-number" data-target="75">0</div>
+          <div class="stat-label">Artworks<br>Completed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">😊</div>
+          <div class="stat-number" data-target="40">0</div>
+          <div class="stat-label">Happy<br>Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">⚡</div>
+          <div class="stat-number" data-target="5">0</div>
+          <div class="stat-label">Days Avg<br>Delivery</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🌟</div>
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">Satisfaction<br>Rate %</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🖌️</div>
+          <div class="stat-number" data-target="6">0</div>
+          <div class="stat-label">Art<br>Mediums</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">📦</div>
+          <div class="stat-number" data-target="15">0</div>
+          <div class="stat-label">Cities<br>Shipped</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signature Section -->
+    <div class="signature-container" id="signatureSection">
+      <img src="Signature.jpg" alt="Monisha's Signature" class="signature-img" id="signatureImg"
+        onerror="this.style.display='none'" />
+    </div>
+
+    <section id="about" class="glass-card" style="padding: 60px 0; margin: 20px 0; border-radius: 20px;">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-card glass-card">
+          <p style="margin-top:0">Monisha Aroumougam is an independent artist who creates pencil sketches, colour pencil
+            pieces, resin art and handmade crafts. She enjoys working with texture, subtle colour palettes and sometimes
+            experiments with watercolour & acrylic for personal projects.</p>
+          <p class="lead">She currently does not take commissions for Watercolour and Acrylic Painting.</p>
+          <p style="color:var(--muted)">Location: Pondicherry, India · Languages: English, Tamil</p>
+        </div>
+        <div>
+          <div
+            style="background:linear-gradient(135deg,#fff7fb,#f6f9ff);padding:12px;border-radius:12px;box-shadow:var(--shadow)">
+            <img src="DP2.jpg" alt="Artist photo" style="border-radius:10px;" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2 class="section-title">Gallery</h2>
+      <p class="lead">Click an image to view larger. Use filters to see specific categories.</p>
+
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="pencil">Pencil Sketch</button>
+        <button class="filter-btn" data-filter="colour">Colour Pencil</button>
+        <button class="filter-btn" data-filter="watercolour">Watercolour (Not for commission)</button>
+        <button class="filter-btn" data-filter="acrylic">Acrylic (Not for commission)</button>
+        <button class="filter-btn" data-filter="resin">Resin Art</button>
+        <button class="filter-btn" data-filter="craft">Handmade Crafts</button>
+      </div>
+
+      <div class="grid" id="galleryGrid">
+        <!-- Example cards - replace src with real images -->
+
+        <div class="card sketch-effect sketch-draw" data-cat="pencil">
+          <img src="Pencil-Image.webp" alt="Pencil sketch 1" loading="lazy" />
+          <div class="meta">
+            <div style="font-weight:600">Pencil Sketch — Portrait</div>
+            <div class="badge">Pencil</div>
+          </div>
+        </div>
+
+        <div class="card sketch-effect sketch-draw" data-cat="colour">
+          <img src="ColorPencil-Image.webp" alt="Colour pencil 1" loading="lazy" />
+          <div class="meta">
+            <div style="font-weight:600">Colour Pencil — Flower study</div>
+            <div class="badge">Colour Pencil</div>
+          </div>
+        </div>
+
+        <div class="card sketch-effect sketch-draw" data-cat="watercolour">
+          <img src="WaterColor-Image.webp" alt="Watercolour 1" loading="lazy" />
+          <div class="meta">
+            <div style="font-weight:600">Watercolour — Study</div>
+            <div class="badge">Watercolour — Personal</div>
+          </div>
+        </div>
+
+        <div class="card" data-cat="acrylic" data-images="Acrylic-Image.webp, acrylic 31.jpeg, arcylic 32.jpeg">
+          <img src="Acrylic-Image.webp" alt="Acrylic 1" loading="lazy" />
+          <div class="meta">
+            <div style="font-weight:600">Acrylic — Experiment</div>
+            <div class="badge">Acrylic — Personal</div>
+          </div>
+        </div>
+
+        <div class="card" data-cat="resin"
+          data-images="ResinArt-Image.webp, ResinArt2-Image.webp, ResinArt3-Image.jpeg">
+          <img src="ResinArt-Image.webp" alt="Resin art preview" loading="lazy" />
+          <div class="meta">
+            <div style="font-weight:600">Resin Coaster — Ocean theme</div>
+            <div class="badge">Resin</div>
+          </div>
+        </div>
+
+
+        <div class="card" data-cat="craft">
+          <img src="Handmade-Image.webp" alt="Handmade card 1" />
+          <div class="meta">
+            <div style="font-weight:600">Handmade Card — Birthday</div>
+            <div class="badge">Craft</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox">
+        <button id="prevBtn" class="lightbox-nav-btn lightbox-prev" aria-label="Previous image">◀</button>
+        <div class="view">
+          <button id="closeLight" class="lightbox-close">✕</button>
+          <img id="lightboxImage" src="" alt="Artwork" />
+        </div>
+        <button id="nextBtn" class="lightbox-nav-btn lightbox-next" aria-label="Next image">▶</button>
+      </div>
+
+
+    </section>
+
+
+    <section id="services">
+      <h2 class="section-title">Pricing & Commissions</h2>
+      <p class="lead">
+        Beginner strategy: affordable rates to build portfolio.<br>
+        Models: by size, by medium, by complexity.<br>
+        <strong>For detailed pricing and custom quotes, DM me on WhatsApp!</strong>
+      </p>
+
+      <div class="services-grid">
+        <div class="service">
+          <h3>Pencil Sketch</h3>
+          <p class="lead">A4 = ₹500 · A3 = ₹1000</p>
+          <p style="font-weight:700">+ ₹500 per extra character/head</p>
+        </div>
+
+        <div class="service">
+          <h3>Colour Pencil</h3>
+          <p class="lead">A4 = ₹1000 · A3 = ₹1800</p>
+          <p style="font-weight:700">+ ₹700 per extra character/head</p>
+        </div>
+
+        <div class="service not-available">
+          <h3>Watercolour</h3>
+          <p class="lead">Personal works — not accepting commissions.</p>
+          <p style="font-weight:700">Not Available</p>
+        </div>
+
+        <div class="service not-available">
+          <h3>Acrylic Painting</h3>
+          <p class="lead">Personal / experimental works — not accepting commissions.</p>
+          <p style="font-weight:700">Not Available</p>
+        </div>
+
+        <div class="service">
+          <h3>Resin Art</h3>
+          <p class="lead">Custom resin pieces — pricing based on size/design.</p>
+          <p style="font-weight:700">Starting ₹150</p>
+        </div>
+
+        <div class="service">
+          <h3>Handmade Crafts</h3>
+          <p class="lead">Cards, small gifts, custom packaging.</p>
+          <p style="font-weight:700">Custom pricing</p>
+        </div>
+
+
+      </div>
+      </div>
+    </section>
+
+    <!-- Instagram Call-to-Action Section -->
+    <section id="instagram" class="instagram-section">
+      <div class="instagram-header">
+        <h2 class="section-title">Follow My Journey</h2>
+        <p class="lead">See my latest artworks and behind-the-scenes on Instagram</p>
+        <a href="https://www.instagram.com/moniverse_atelier?igsh=ODVkd2xha3pjNDhz" target="_blank"
+          class="instagram-handle">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+          </svg>
+          @moniverse_atelier
+        </a>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <h2 class="section-title">Client Testimonials</h2>
+      <p class="lead">What my clients say about their commissioned artwork</p>
+
+      <div class="testimonials-wrapper">
+        <div class="testimonials-grid" id="testimonialsGrid">
+          <div class="testimonial">
+            <p class="testimonial-text">"Monisha created a beautiful pencil sketch of my family. The attention to detail
+              was incredible and she captured everyone's expressions perfectly. Highly recommended!"</p>
+            <div class="testimonial-author">
+              <img src="https://ui-avatars.com/api/?name=Priya+Kumar&background=b78bff&color=fff" alt="Priya Kumar" />
+              <div class="testimonial-author-info">
+                <div class="testimonial-name">Priya Kumar</div>
+                <div class="testimonial-role">Family Portrait Client</div>
+                <div class="testimonial-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial-text">"The resin coasters I ordered are absolutely stunning! They look even better in
+              person. Perfect gift for my friend's housewarming. Will definitely order again."</p>
+            <div class="testimonial-author">
+              <img src="https://ui-avatars.com/api/?name=Ragul+Raj&background=ff8bd5&color=fff" alt="Rahul Sharma" />
+              <div class="testimonial-author-info">
+                <div class="testimonial-name">Ragul Raj</div>
+                <div class="testimonial-role">Resin Art Client</div>
+                <div class="testimonial-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial-text">"I commissioned a pencil portrait of my Pencil Sketch and I'm blown away by the
+              result. Monisha is incredibly talented and professional. Worth every rupee!"</p>
+            <div class="testimonial-author">
+              <img src="https://ui-avatars.com/api/?name=Christy&background=ffb86b&color=fff" alt="Anjali Reddy" />
+              <div class="testimonial-author-info">
+                <div class="testimonial-name">Christy</div>
+                <div class="testimonial-role">Pencil Portrait Client</div>
+                <div class="testimonial-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial-text">"Ordered a custom handmade birthday card and it exceeded all expectations! The
+              craftsmanship and attention to detail were amazing. My friend loved it!"</p>
+            <div class="testimonial-author">
+              <img src="https://ui-avatars.com/api/?name=Leo+Das&background=b78bff&color=fff" alt="Leo Das" />
+              <div class="testimonial-author-info">
+                <div class="testimonial-name">Leo Das</div>
+                <div class="testimonial-role">Handmade Craft Client</div>
+                <div class="testimonial-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial-text">"Got a pencil sketch of my parents as an anniversary gift. The level of detail
+              and emotion captured in the artwork was phenomenal. Highly professional service!"</p>
+            <div class="testimonial-author">
+              <img src="https://ui-avatars.com/api/?name=Barath&background=ff8bd5&color=fff" alt="Barath" />
+              <div class="testimonial-author-info">
+                <div class="testimonial-name">Barath</div>
+                <div class="testimonial-role">Pencil Sketch Client</div>
+                <div class="testimonial-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial Navigation Dots -->
+        <div class="testimonial-nav" id="testimonialNav"></div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="lead">Common questions about commissions, pricing, and process</p>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How long does it take to complete a commission?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Typically, pencil sketches take 3-5 days, colour pencil works take 5-7 days, and resin art takes 7-10
+              days depending on complexity. Rush orders may be available for an additional fee.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What do I need to provide for a portrait commission?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Please provide high-quality reference photos (clear, well-lit, and high resolution). Multiple angles are
+              helpful. Let me know the size you want (A4 or A3) and any specific details or preferences.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you ship artwork, or is it pickup only?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>I offer both options! Local pickup is available in Pondicherry. For shipping, I carefully package all
+              artwork and ship via reliable courier services. Shipping costs are calculated based on location and size.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What is your payment process?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>I require 50% advance payment to start the commission, and the remaining 50% upon completion before
+              shipping/delivery. Payments can be made via UPI, bank transfer, or other digital payment methods.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I request revisions?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! I provide progress updates and allow minor revisions during the sketching phase. Major changes after
+              completion may incur additional charges. Clear communication upfront helps ensure you get exactly what you
+              want.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you accept commissions for watercolour or acrylic paintings?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Currently, I'm not accepting commissions for watercolour or acrylic paintings as these are
+              personal/experimental projects. However, I'm happy to create pencil sketches, colour pencil art, resin
+              pieces, or handmade crafts for you!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payment Methods Section -->
+    <section id="payment-methods">
+      <h2 class="section-title">Payment Methods</h2>
+      <p class="lead">Flexible payment options for your convenience</p>
+
+      <div class="payment-grid">
+        <div class="payment-card">
+          <div class="payment-icon">📱</div>
+          <h3>UPI</h3>
+          <p>Quick and secure digital payment via UPI apps</p>
+        </div>
+
+        <div class="payment-card">
+          <div class="payment-icon">🏦</div>
+          <h3>Bank Transfer</h3>
+          <p>Direct bank account transfer for larger orders</p>
+        </div>
+
+        <div class="payment-card">
+          <div class="payment-icon">💳</div>
+          <h3>Google Pay</h3>
+          <p>Easy payments through Google Pay app</p>
+        </div>
+
+        <div class="payment-card">
+          <div class="payment-icon">💰</div>
+          <h3>Cash on Delivery</h3>
+          <p>Local pickup in Pondicherry with cash payment</p>
+        </div>
+      </div>
+
+      <p class="lead" style="text-align: center; margin-top: 30px; font-size: 16px;">
+        50% advance payment required to start your commission · Remaining 50% upon completion
+      </p>
+    </section>
+
+    <!-- Gift Recommendations Section -->
+    <section id="gift-recommendations">
+      <h2 class="section-title">Perfect Gift Ideas</h2>
+      <p class="lead">Custom packages for every occasion</p>
+
+      <div class="gift-grid">
+        <div class="gift-card">
+          <div class="gift-emoji">🎂</div>
+          <h3>Birthday Surprise</h3>
+          <p class="gift-desc">Custom portrait or sketch of the birthday person</p>
+          <ul class="gift-features">
+            <li>Pencil or colour pencil portrait</li>
+            <li>A4 size with custom frame</li>
+            <li>Ready in 5-7 days</li>
+          </ul>
+        </div>
+
+        <div class="gift-card">
+          <div class="gift-emoji">💍</div>
+          <h3>Anniversary Gift</h3>
+          <p class="gift-desc">Romantic couple portrait or custom resin piece</p>
+          <ul class="gift-features">
+            <li>Couple portrait sketch</li>
+            <li>Custom resin keepsake</li>
+            <li>Personalized packaging</li>
+          </ul>
+        </div>
+
+        <div class="gift-card">
+          <div class="gift-emoji">🐾</div>
+          <h3>Pet Portrait</h3>
+          <p class="gift-desc">Immortalize your beloved pet</p>
+          <ul class="gift-features">
+            <li>Detailed pet sketch or portrait</li>
+            <li>Various sizes available</li>
+            <li>Perfect for pet lovers</li>
+          </ul>
+        </div>
+
+        <div class="gift-card">
+          <div class="gift-emoji">🏠</div>
+          <h3>Housewarming Gift</h3>
+          <p class="gift-desc">Beautiful resin coasters or custom wall art</p>
+          <ul class="gift-features">
+            <li>Custom resin coasters set</li>
+            <li>Matching wall art</li>
+            <li>Modern home décor style</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <p class="lead">Have a unique gift idea in mind? <strong>DM me on WhatsApp</strong> for a personalized quote!
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p class="lead">Send an inquiry — we'll reply via email or WhatsApp.</p>
+
+      <div id="contactGrid" style="display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start">
+        <!-- Formspree form -->
+        <form id="contactForm" class="about-card">
+          <input type="text" name="name" id="name" placeholder="Your name" autocomplete="name" required />
+          <input type="email" name="email" id="email" placeholder="Your email" autocomplete="email" required />
+          <textarea name="message" id="message" rows="6" placeholder="Message (include what you'd like commissioned)"
+            autocomplete="off" required></textarea>
+          <div style="display:flex;gap:8px;align-items:center">
+            <button type="submit">Send Inquiry</button>
+            <div style="color:var(--muted);font-size:13px">
+              Or email: <a href="mailto:monissketchbook@gmail.com">monissketchbook@gmail.com</a>
+            </div>
+          </div>
+          <div id="formMsg" style="margin-top:8px;color:green;display:none"></div>
+        </form>
+
+
+        <div class="about-card">
+          <h4 style="margin-top:0">Social</h4>
+          <p class="lead">Connect with me on:</p>
+          <div class="social-links">
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/moniverse_atelier?igsh=ODVkd2xha3pjNDhz" target="_blank"
+              aria-label="Instagram" class="social instagram">
+              <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/918903539297" target="_blank" aria-label="WhatsApp" class="social whatsapp">
+              <img src="https://cdn-icons-png.flaticon.com/512/2111/2111728.png" alt="WhatsApp" />
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:monissketchbook@gmail.com?subject=Commission%20Inquiry&body=Hi%20Monisha,%0D%0A%0D%0AI%20would%20like%20to%20commission%20a%20sketch.%20Please%20let%20me%20know%20the%20details.%0D%0A%0D%0AThanks!"
+              aria-label="Email" class="social mail">
+              <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px"
+      class="footer-content">
+      <div class="copyright-text">
+        <span id="year"></span> <a href="https://www.linkedin.com/in/monisha-aroumougam-79ab1b31b" target="_blank"
+          rel="noopener noreferrer" class="artist-name" style="text-decoration: none; cursor: pointer;">Monisha
+          Aroumougam</a>. All rights reserved.
+      </div>
+      <a href="https://www.linkedin.com/in/mappillai-meeran-a-5ba0a128a" target="_blank" class="developer-credit"
+        style="text-decoration: none;">Built by Mappillai Meeran.dev</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
