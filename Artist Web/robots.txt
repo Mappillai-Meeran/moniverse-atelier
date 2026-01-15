@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://moniverse-atelier.vercel.app/sitemap.xml
